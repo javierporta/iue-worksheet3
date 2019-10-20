@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D10279A235C935E002662A5 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D102799235C935E002662A5 /* ContactsTableViewCell.swift */; };
+		5D12BAB7235C7C7B00904720 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12BAB6235C7C7B00904720 /* Contact.swift */; };
+		5D12BAB9235C7E1D00904720 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D12BAB8235C7E1D00904720 /* ContactsTableViewController.swift */; };
+		5DADAAA52357327C0066B2F9 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DADAAA42357327C0066B2F9 /* PhotosCollectionViewController.swift */; };
+		5DADAAA72357349E0066B2F9 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DADAAA62357349E0066B2F9 /* PhotoCollectionViewCell.swift */; };
 		5DCA3733234DFB2500D4829E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA3732234DFB2500D4829E /* AppDelegate.swift */; };
 		5DCA3735234DFB2500D4829E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA3734234DFB2500D4829E /* SceneDelegate.swift */; };
 		5DCA3737234DFB2500D4829E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA3736234DFB2500D4829E /* ViewController.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D102799235C935E002662A5 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		5D12BAB6235C7C7B00904720 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		5D12BAB8235C7E1D00904720 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		5DADAAA42357327C0066B2F9 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		5DADAAA62357349E0066B2F9 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		5DCA372F234DFB2500D4829E /* IUE-Worksheet3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IUE-Worksheet3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DCA3732234DFB2500D4829E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DCA3734234DFB2500D4829E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,11 +111,16 @@
 			children = (
 				5DCA3732234DFB2500D4829E /* AppDelegate.swift */,
 				5DCA3734234DFB2500D4829E /* SceneDelegate.swift */,
-				5DCA3736234DFB2500D4829E /* ViewController.swift */,
 				5DCA3738234DFB2500D4829E /* Main.storyboard */,
+				5DADAAA42357327C0066B2F9 /* PhotosCollectionViewController.swift */,
+				5DCA3736234DFB2500D4829E /* ViewController.swift */,
 				5DCA373B234DFB2600D4829E /* Assets.xcassets */,
 				5DCA373D234DFB2600D4829E /* LaunchScreen.storyboard */,
 				5DCA3740234DFB2600D4829E /* Info.plist */,
+				5DADAAA62357349E0066B2F9 /* PhotoCollectionViewCell.swift */,
+				5D12BAB6235C7C7B00904720 /* Contact.swift */,
+				5D12BAB8235C7E1D00904720 /* ContactsTableViewController.swift */,
+				5D102799235C935E002662A5 /* ContactsTableViewCell.swift */,
 			);
 			path = "IUE-Worksheet3";
 			sourceTree = "<group>";
@@ -259,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D10279A235C935E002662A5 /* ContactsTableViewCell.swift in Sources */,
 				5DCA3737234DFB2500D4829E /* ViewController.swift in Sources */,
+				5DADAAA72357349E0066B2F9 /* PhotoCollectionViewCell.swift in Sources */,
+				5D12BAB7235C7C7B00904720 /* Contact.swift in Sources */,
 				5DCA3733234DFB2500D4829E /* AppDelegate.swift in Sources */,
 				5DCA3735234DFB2500D4829E /* SceneDelegate.swift in Sources */,
+				5DADAAA52357327C0066B2F9 /* PhotosCollectionViewController.swift in Sources */,
+				5D12BAB9235C7E1D00904720 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
